@@ -1,0 +1,33 @@
+{
+  "name": "email-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesgorman2/email-proxy.git"
+  },
+  "author": "James Gorman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesgorman2/email-proxy/issues"
+  },
+  "homepage": "https://github.com/jamesgorman2/email-proxy#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.9.0",
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
